@@ -84,13 +84,16 @@ def search(index, query):
 def main():
     """ Main method. You should not modify this. """
     documents = read_lines('documents.txt')
-    tokens = [tokenize(d) for d in documents]
+    for line in documents:
+        print line
+        
+    """tokens = [tokenize(d) for d in documents]
     index = create_index(tokens)
     queries = read_lines('queries.txt')
     for query in queries:
         results = search(index, query)
         print '\n\nQUERY:', query, '\nRESULTS:\n', '\n'.join(documents[r] for r in results)
-
+"""
 
 if __name__ == '__main__':
     main()
