@@ -119,3 +119,4 @@ Why is the little duck always so sad?     Because he always sees a bill in front
 Why does the man wish he could be a guitar player in a room full of beautiful girls?     Because if he was a guitar player, he would have his pick!
 Why did the ghost float across the road?     Because he couldn't walk
 ```
+Nirmal kumar ravi
